@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="UnusedResources">
+    <!-- At least one dummy resource is needed to satisfy aapt.
+    Otherwise it complains about no res folder. -->
+    <string name="app_name">SmartExtensionAPI</string>
+    
+        <string name="configuration_text">Hello Notification settings</string>
+    <string name="extension_name">Ski Lift</string>
+    
+
+</resources>

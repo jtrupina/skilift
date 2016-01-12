@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SkiLift</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="btnUIChange">SmartWatch UI</string>
+    <string name="btnInfo">Information</string>
+    <string name="btnFilter">Filter Lifts</string>
+    <string name="imgDescription">Ski Lift logo</string>
+    <string name="btnUIName">Color List</string>
+    <string name="btnBack">Back</string>
+    <string name="btnSelect">Select</string>
+    <string name="btnSort">Sorting</string>
+    <string name="btnSettings">Settings</string>
+    <!-- Alert dialog texts -->
+    <string name="dialogTitleSort">Sorting</string>
+    <string name="dialogTextSort">Sort the data on SmartWatch according to the Lift capacity.</string>
+    <string name="dialogPosBtnSort">Ascending</string>
+    <string name="dialogNegBtnSort">Descending</string>
+    <string name="dialogTitleSensor">Sensor</string>
+    <string name="dialogTextSensor">Change SmartWatch user interface directly from smartwatch using accelerometer.</string>
+    <string name="dialogPosBtnSensor">On</string>
+    <string name="dialogNegBtnSensor">Off</string>
+    <string name="text_show_bitmap">Change to bitmap</string>
+    <string name="text_tap_to_update">Tap to update</string>
+    <string name="reset_layout">Reset layout</string>
+    <string name="text_show_layout">Change to layout</string>
+    <string name="configuration_text">Hello Notification settings</string>
+    <string name="extension_name">Ski Lift</string>
+    <string name="btnMainSensor">Sensor</string>
+    <string name="btnMainInformation">Info</string>
+    <string name="btnMainExit">Exit</string>
+    <string name="btnMainSort">Sort</string>
+    <string name="btnMainSW">User Interface</string>
+    <string name="btnMainFilter">Filter</string>
+    <string name="dialogInfoTitle">Information</string>
+    <string name="dialogTxtInfo">This is the  project from Software analysis and development course at FOI University in collaboration with Evolaris GmbH company.</string>
+    <string name="dialogBtnInfo">Back</string>
+
+    <string-array name="smart_watch_designs">
+        <item>Simple list</item>
+        <item>Detailed list</item>
+        <item>Pie chart</item>
+        <item>Radar</item>
+    </string-array>
+
+</resources>

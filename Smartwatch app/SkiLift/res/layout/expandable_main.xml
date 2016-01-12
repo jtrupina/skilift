@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:alpha="1" >
+
+    <!-- heading for basic settings -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/buttons" >
+
+        <!-- macro name -->
+
+        <ExpandableListView
+            android:id="@+id/ExpList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/main_color_gray_lt"
+            android:dividerHeight="1.0dip"
+            android:groupIndicator="@null" />
+
+        <!-- Save & Cancel button -->
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <Button
+            android:visibility="invisible"
+            android:id="@+id/setup_macroCancelbtn"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="right"/>
+
+        <Button
+            android:visibility="invisible"
+            android:id="@+id/setup_macroSavebtn"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="left"/>
+
+        <Button
+            android:visibility="invisible"
+            android:id="@+id/btn2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+
+</RelativeLayout>

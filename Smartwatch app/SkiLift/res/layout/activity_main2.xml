@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_color_green"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:weightSum="3" >
+
+    <ImageView
+        android:paddingBottom="25dip"
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1.5"
+        android:contentDescription="asdn"
+        android:src="@drawable/logo3" />
+
+    <TableLayout
+        android:background="#FFFFFF"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.5"
+        android:stretchColumns="*" >
+
+        <TableRow style="@style/SpringboardTableRow"
+             android:background="@color/main_color_green"
+              android:layout_marginTop="2dp"
+             >
+
+            <LinearLayout
+                style="@style/SpringboardItemLayout"
+                android:onClick="userInterface" >
+
+                <ImageView
+                    style="@style/SpringboardItemImage"
+                    android:src="@drawable/jedanaest" />
+
+                <TextView
+                    style="@style/SpringboardItemText"
+                    android:text="@string/btnMainSW" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/SpringboardItemLayout"
+                android:onClick="filterData" >
+
+                <ImageView
+                    style="@style/SpringboardItemImage"
+                    android:src="@drawable/osmi" />
+
+                <TextView
+                    style="@style/SpringboardItemText"
+                    android:text="@string/btnMainFilter" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/SpringboardItemLayout"
+                android:onClick="sort" >
+
+                <ImageView
+                    style="@style/SpringboardItemImage"
+                    android:onClick="sort"
+                    android:src="@drawable/deveti" />
+
+                <TextView
+                    style="@style/SpringboardItemText"
+                    android:text="@string/btnMainSort" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow style="@style/SpringboardTableRow" 
+             android:background="@color/main_color_green">
+
+            <LinearLayout
+                style="@style/SpringboardItemLayout" 
+                android:onClick="sensor">
+
+                <ImageView
+                    style="@style/SpringboardItemImage"
+                    android:onClick="sensor"
+                    android:src="@drawable/cetvrti" />
+
+                <TextView
+                    style="@style/SpringboardItemText"
+                    android:text="@string/btnMainSensor" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/SpringboardItemLayout"
+                android:onClick="info" >
+
+                <ImageView
+                    style="@style/SpringboardItemImage"
+                    android:onClick="info"
+                    android:src="@drawable/drugi" />
+
+                <TextView
+                    style="@style/SpringboardItemText"
+                    android:text="@string/btnMainInformation" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/SpringboardItemLayout"
+                android:onClick="exit">
+
+                <ImageView
+                    style="@style/SpringboardItemImage"
+                    android:src="@drawable/deseti" />
+
+                <TextView
+                    style="@style/SpringboardItemText"
+                    android:text="@string/btnMainExit" />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
